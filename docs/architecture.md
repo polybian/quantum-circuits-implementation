@@ -1,6 +1,6 @@
 # Architecture
 
-## What this lab is
+## What this is
 
 A hands-on introduction to quantum computing built with **Qiskit** (IBM's
 open-source quantum SDK). Four self-contained implementations run from the
@@ -10,7 +10,7 @@ local statevector simulator (`qiskit-aer`).
 ## Layout
 
 ```
-quantum-circuits-lab/
+quantum-circuits-implementation/
 ├── README.md                  # overview, quickstart, validation results
 ├── requirements.txt           # qiskit + qiskit-aer
 ├── run_all.sh                 # runs all four implementations in order
@@ -21,7 +21,7 @@ quantum-circuits-lab/
 │   └── 04_deutsch_jozsa.py     # constant vs balanced, decided in 1 query
 ├── docs/
 │   ├── architecture.md        # this file
-│   └── interview-answers.md   # Q&A for interviews / transfer essays
+│   └── interview-answers.md   # Q&A for interviews
 └── simplified-explanation.md   # plain-language guide (Spanish)
 ```
 
@@ -56,8 +56,8 @@ service = QiskitRuntimeService()          # needs a free IBM Quantum token
 backend = service.least_busy(operational=True, simulator=False)
 ```
 
-That one-line swap is the bridge from "lab exercise" to "I ran this
-on a real quantum computer" — a strong line for a transfer essay.
+That one-line swap is the bridge from "classroom exercise" to "I ran this
+on a real quantum computer" — a strong line for an application.
 
 ## Design choices
 
