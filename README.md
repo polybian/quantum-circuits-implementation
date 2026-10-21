@@ -6,9 +6,8 @@ simulator — no quantum hardware, no account, no cost.
 
 This is experiment #15 in my homelab portfolio: the same "rebuild it
 yourself until you can explain it" method I used for networking,
-identity, and cloud labs, now applied to the field I want to study —
-**quantum engineering** (UChicago Pritzker School of Molecular
-Engineering, quantum track).
+identity, and cloud labs, now applied to the field I love —
+**molecular engineering, and above all QUANTUM**.
 
 ## The four experiments
 
@@ -93,6 +92,6 @@ matters, simulator vs hardware, and why quantum + my background.
 
 ## Plain-language guide
 
-[guia-como-si-tuvieras-8-anos.md](guia-como-si-tuvieras-8-anos.md) —
+[simplified-explanation.md](simplified-explanation.md) —
 everything in this repo explained as if you were eight years old
 (Spanish).

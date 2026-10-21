@@ -22,7 +22,7 @@ quantum-circuits-lab/
 ├── docs/
 │   ├── architecture.md        # this file
 │   └── interview-answers.md   # Q&A for interviews / transfer essays
-└── guia-como-si-tuvieras-8-anos.md   # plain-language guide (Spanish)
+└── simplified-explanation.md   # plain-language guide (Spanish)
 ```
 
 ## How it runs
