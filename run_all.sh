@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs every experiment in the lab, in order.
+# Runs every implementation in order.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -22,4 +22,4 @@ echo
 echo "=== 04 — Deutsch-Jozsa ==="
 $PY scripts/04_deutsch_jozsa.py
 echo
-echo "All four experiments completed successfully."
+echo "All four implementations completed successfully."

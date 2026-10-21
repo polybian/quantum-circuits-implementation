@@ -3,7 +3,7 @@
 ## What this lab is
 
 A hands-on introduction to quantum computing built with **Qiskit** (IBM's
-open-source quantum SDK). Four self-contained experiments run from the
+open-source quantum SDK). Four self-contained implementations run from the
 command line — no quantum hardware needed, everything executes on a
 local statevector simulator (`qiskit-aer`).
 
@@ -13,7 +13,7 @@ local statevector simulator (`qiskit-aer`).
 quantum-circuits-lab/
 ├── README.md                  # overview, quickstart, validation results
 ├── requirements.txt           # qiskit + qiskit-aer
-├── run_all.sh                 # runs all four experiments in order
+├── run_all.sh                 # runs all four implementations in order
 ├── scripts/
 │   ├── 01_bell_state.py        # entanglement: H + CNOT, 2 qubits
 │   ├── 02_quantum_teleportation.py  # teleport |1> using a Bell pair + 2 classical bits

@@ -1,15 +1,15 @@
 # quantum-circuits-lab
 
-Four hands-on quantum computing experiments built with **Qiskit** (IBM's
+Four hands-on quantum computing implementations built with **Qiskit** (IBM's
 open-source quantum SDK), runnable from the command line on a local
 simulator — no quantum hardware, no account, no cost.
 
-This is experiment #15 in my homelab portfolio: the same "rebuild it
+This is #15 in my homelab portfolio: the same "rebuild it
 yourself until you can explain it" method I used for networking,
 identity, and cloud labs, now applied to the field I love —
 **molecular engineering, and above all QUANTUM**.
 
-## The four experiments
+## The four implementations
 
 | # | Script | What it demonstrates |
 |---|--------|----------------------|
@@ -43,16 +43,16 @@ pip install -r requirements.txt
 # run everything:
 bash run_all.sh
 
-# or one experiment:
+# or a single implementation:
 python3 scripts/01_bell_state.py --shots 2048
 ```
 
 ## Validation
 
-All four experiments were executed on Qiskit Aer 2.6.0 (seeded simulator).
+All four implementations were executed on Qiskit Aer 2.6.0 (seeded simulator).
 Measured results, 2026-10-21:
 
-| Experiment | Prediction | Measured |
+| Implementation | Prediction | Measured |
 |------------|-----------|----------|
 | Bell state (2048 shots) | only `00`/`11`, ~50/50 | `00`: 1001 (48.9%), `11`: 1047 (51.1%); correlated 2048/2048 — assertion passed |
 | Teleportation (1024 shots) | receiver qubit always `\|1⟩` | `\|1⟩` in 1024/1024 shots (100%) — assertion passed |
