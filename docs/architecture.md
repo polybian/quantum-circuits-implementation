@@ -20,8 +20,7 @@ quantum-circuits-implementation/
 │   ├── 03_grover_search.py     # amplitude amplification finds |11> in 1 query
 │   └── 04_deutsch_jozsa.py     # constant vs balanced, decided in 1 query
 ├── docs/
-│   ├── architecture.md        # this file
-│   └── interview-answers.md   # Q&A for interviews
+│   └── architecture.md        # this file
 └── simplified-explanation.md   # plain-language guide (Spanish)
 ```
 
