@@ -84,12 +84,6 @@ Planned next steps: Bernstein-Vazirani and Simon algorithms, then a
 small VQE (variational quantum eigensolver) for H₂ — the "hello world"
 of quantum chemistry.
 
-## Interview Q&A
-
-[docs/interview-answers.md](docs/interview-answers.md) — the questions
-this project invites, answered honestly: what a qubit is, why Grover
-matters, simulator vs hardware, and why quantum + my background.
-
 ## Plain-language guide
 
 [simplified-explanation.md](simplified-explanation.md) —

@@ -1,6 +1,6 @@
 # Computación cuántica explicada como si tuvieras 8 años
 
-*Una guía para entender de verdad el proyecto `quantum-circuits-lab`,
+*Una guía para entender de verdad el proyecto `quantum-circuits-implementation`,
 sin matemáticas que asusten. Si al terminar puedes explicárselo a un
 niño, puedes explicárselo en una entrevista.*
 
