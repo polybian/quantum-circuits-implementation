@@ -6,8 +6,7 @@ simulator — no quantum hardware, no account, no cost.
 
 The same "rebuild it
 yourself until you can explain it" method I used for networking,
-identity, and cloud implementations, now applied to the field I love —
-**molecular engineering, and above all QUANTUM**.
+identity, and cloud implementations, now applied to quantum computing, which I study as a hobby.
 
 ## The four implementations
 
