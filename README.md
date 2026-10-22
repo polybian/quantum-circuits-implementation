@@ -4,9 +4,9 @@ Four hands-on quantum computing implementations built with **Qiskit** (IBM's
 open-source quantum SDK), runnable from the command line on a local
 simulator — no quantum hardware, no account, no cost.
 
-This is #15 in my portfolio and #1 in my quantum series: the same "rebuild it
+The same "rebuild it
 yourself until you can explain it" method I used for networking,
-identity, and cloud labs, now applied to the field I love —
+identity, and cloud implementations, now applied to the field I love —
 **molecular engineering, and above all QUANTUM**.
 
 ## The four implementations
