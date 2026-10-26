@@ -4,7 +4,7 @@
 
 A hands-on introduction to quantum computing built with **Qiskit** (IBM's
 open-source quantum SDK). Four self-contained implementations run from the
-command line — no quantum hardware needed, everything executes on a
+command line: no quantum hardware needed, everything executes on a
 local statevector simulator (`qiskit-aer`).
 
 ## Layout
@@ -56,7 +56,7 @@ backend = service.least_busy(operational=True, simulator=False)
 ```
 
 That one-line swap is the bridge from "classroom exercise" to "I ran this
-on a real quantum computer" — a strong line for an application.
+on a real quantum computer": a strong line for an application.
 
 ## Design choices
 
@@ -67,4 +67,4 @@ on a real quantum computer" — a strong line for an application.
   numbers, which makes the validation section of the README checkable.
 - **Assertions as specifications**: each script encodes the physics it
   demonstrates (`assert correlated == shots`), so "it works" is not a
-  vibe — it's a passing check.
+  vibe. It's a passing check.

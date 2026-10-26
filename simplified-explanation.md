@@ -31,7 +31,7 @@ a la otra punta del mundo. Te quitas el tuyo y ves que es el **derecho**.
 En ese mismo instante, sin que nadie te diga nada, **ya sabes** que el
 otro guante es el **izquierdo**.
 
-Los guantes no "se avisaron" — simplemente nacieron conectados. Eso es
+Los guantes no "se avisaron": simplemente nacieron conectados. Eso es
 el **entrelazamiento**: dos qubits que se comportan como una sola cosa,
 aunque estén separadísimos.
 
@@ -95,8 +95,8 @@ Esa es la magia: no es un poquito más rápido, es *radicalmente* más
 rápido.
 
 > 🧒 *"¿Y para qué sirve en la vida real?"*
-> Para buscar en bases de datos gigantes, y —esto le importa a los
-> espías— para debilitar algunos códigos secretos. Por eso los expertos
+> Para buscar en bases de datos gigantes, y (esto le importa a los
+> espías) para debilitar algunos códigos secretos. Por eso los expertos
 > en seguridad (como tú 😉) lo estudian.
 
 **En el proyecto:** `03_grover_search.py` busca el número `11` entre 4
@@ -132,14 +132,14 @@ las clasifica perfecto, con una sola consulta cada una.
 ## 🖥️ Capítulo 6: ¿Y dónde está la computadora cuántica?
 
 Aquí viene lo bonito: **no necesitas una**. Los 4 experimentos corren
-en un **simulador** — un programa normal que finge ser cuántico. Es
+en un **simulador**: un programa normal que finge ser cuántico. Es
 como practicar fútbol en un videojuego antes de pisar la cancha real.
 
 Cuando quieras jugar en la cancha real, IBM presta computadoras
 cuánticas de verdad **gratis** (quantum.ibm.com). El código del proyecto
 está escrito para que cambiar del simulador al hardware real sea una
 sola línea. En hardware real los resultados salen un poquito "borrosos"
-por el ruido — y pelear contra ese ruido es exactamente lo que estudia
+por el ruido: y pelear contra ese ruido es exactamente lo que estudia
 la **ingeniería cuántica**.
 
 ---

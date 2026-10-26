@@ -1,12 +1,12 @@
 """
-01 — Bell state: the simplest entangled two-qubit system.
+01 - Bell state: the simplest entangled two-qubit system.
 
 What it does:
   1. Puts qubit 0 into superposition with a Hadamard gate.
   2. Entangles qubit 1 with qubit 0 via a CNOT gate.
   3. Measures both qubits.
 
-Expected result: the outcomes are ALWAYS correlated — you only ever
+Expected result: the outcomes are ALWAYS correlated - you only ever
 see '00' or '11', roughly 50/50. You never see '01' or '10'.
 That perfect correlation, with each individual qubit still random,
 is entanglement.
@@ -59,7 +59,7 @@ def main() -> None:
     print(f"Correlated outcomes (00 or 11): {correlated}/{args.shots} "
           f"({100 * correlated / args.shots:.1f}%)")
     assert correlated == args.shots, "Entanglement broken: saw 01 or 10!"
-    print("OK — perfect correlation confirmed: the qubits are entangled.")
+    print("OK - perfect correlation confirmed: the qubits are entangled.")
 
 
 if __name__ == "__main__":

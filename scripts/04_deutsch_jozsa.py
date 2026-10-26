@@ -1,5 +1,5 @@
 """
-04 — Deutsch-Jozsa: the first algorithm proven faster than any classical one.
+04 - Deutsch-Jozsa: the first algorithm proven faster than any classical one.
 
 Problem: given a black-box function f on n bits, decide whether f is
 CONSTANT (same output for all inputs) or BALANCED (0 for half the
@@ -66,7 +66,7 @@ def main() -> None:
 
     assert set(constant_counts) == {"00"}, "Constant case misclassified!"
     assert "00" not in balanced_counts, "Balanced case misclassified!"
-    print("\nOK — one query distinguished constant from balanced in both cases.")
+    print("\nOK - one query distinguished constant from balanced in both cases.")
     print("A classical computer could need up to 3 queries for n = 2.")
 
 

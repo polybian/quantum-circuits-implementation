@@ -1,5 +1,5 @@
 """
-03 — Grover's search: quadratic speedup for unstructured search.
+03 - Grover's search: quadratic speedup for unstructured search.
 
 Problem: find the marked item '11' among 4 possibilities (2 qubits).
 Classically you need ~2.25 queries on average. Grover's algorithm
@@ -68,7 +68,7 @@ def main() -> None:
     success = 100 * counts.get("11", 0) / args.shots
     print(f"\nMarked item found in {success:.1f}% of shots.")
     assert success > 95, "Grover amplification failed!"
-    print("OK — amplitude amplification concentrated probability on |11>.")
+    print("OK - amplitude amplification concentrated probability on |11>.")
 
 
 if __name__ == "__main__":
